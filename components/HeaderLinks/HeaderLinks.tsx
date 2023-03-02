@@ -27,28 +27,8 @@ export const links: MenuLink[] = [
   //   disabled: true
   // },
   {
-    title: 'BORROW',
-    href: '/borrow'
-  },
-  {
-    title: 'LEND',
-    href: '/lend'
-  },
-  {
-    title: 'LIQUIDATION',
-    href: '/liquidate'
-  },
-  {
-    title: 'SWAP',
-    href: '/swap'
-  },
-  {
     title: 'GOVERNANCE',
     href: '/governance'
-  },
-  {
-    title: 'FARM',
-    href: '/farm'
   },
   {
     title: 'DOCUMENTATION',
@@ -181,7 +161,7 @@ const HeaderDropdownMenu = () => {
             )}
           </Menu.Item>
         ))}
-      <li>
+      {/* <li>
         <Dropdown overlay={MoreMenu}>
           <HoneyButton variant="textSecondary">
             <Space>
@@ -190,7 +170,7 @@ const HeaderDropdownMenu = () => {
             </Space>
           </HoneyButton>
         </Dropdown>
-      </li>
+      </li> */}
     </Menu>
   );
 };
